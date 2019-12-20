@@ -3,9 +3,12 @@ function setup() {
 }
 function draw() {
 	if (mouseIsPressed) {
-		fill(0);
+		let c = color('orange');
+		fill(c);
 	} else {
-		fill(255);
+		let c = color('magenta');
+		fill(c);
 	}
-	ellipse(mouseX, mouseY, 50, 50);
+	ellipse(mouseX, mouseY, 80, 80);
+	noStroke();
 }
