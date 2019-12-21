@@ -1,6 +1,4 @@
 function setup() {
-	backround('black')
-	createCanvas(1366, 768);
 	createCanvas(640, 420);
 }
 function draw() {
