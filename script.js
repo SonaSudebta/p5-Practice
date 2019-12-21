@@ -3,7 +3,7 @@ function setup() {
 }
 function draw() {
 	if (mouseIsPressed) {
-		let c = color('orange');
+		let c = color('white');
 		fill(c);
 	} else {
 		let c = color('magenta');
